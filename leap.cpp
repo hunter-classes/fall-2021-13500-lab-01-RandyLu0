@@ -1,12 +1,15 @@
 //File name: /home/randy/135-rec/fall-2021-13500-lab-01-RandyLu0/leap.cpp
 #include <iostream>
-using namespace std;
+using std::cout;
+using std::cin;
 
-int main()
-{
+int main(){
+
     int year;
+
     cout << "Enter year: ";
     cin >> year;
+    
     if(year % 4 != 0){
         cout << "\n\nCommon year\n";
     }else{
@@ -17,9 +20,8 @@ int main()
                 cout << "\n\nCommon year\n";
             }else{
                 cout << "\n\nLeap year\n";
-            }
-        
-            }
+            }    
         }
+    }
     return 0;
 }
