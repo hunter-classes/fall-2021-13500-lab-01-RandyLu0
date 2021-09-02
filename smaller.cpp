@@ -2,19 +2,19 @@
 #include <iostream>
 using namespace std;
 
-int main()
-{
+int main(){
+
     int n,m,s;
 
     cout << "\nEnter the first number: ";
     cin >> n;
     cout << "\nEnter the second number: ";
     cin >> m;
-    if(n < m){
+    if(n <= m){
         s = n;
     }else{
-        s = m;
+		s = m;
     }
-    cout << "\n\nThe smallest number is " << s;
+	cout << "\n\nThe smallest number is " << s << endl;
     return 0;
 }
