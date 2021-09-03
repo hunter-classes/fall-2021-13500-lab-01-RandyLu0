@@ -12,30 +12,22 @@ int main(){
     cout << "\nEnter the month: ";
     cin >> month;
 
-    if(month < 8 and month % 2 == 1){
+    if((month < 8 and month % 2 == 1) or (month >= 8 and month % 2 == 0)){
         cout << "\nThere are 31 days\n";
     }else{
-		if(month >= 8 and month % 2 == 0){
-			cout << "\nThere are 31 days\n";		
+		if((month < 8 and month % 2 == 0 and month != 2) or (month > 8 and month % 2 == 1)){
+			cout << "\nThere are 30 days\n";
 		}else{
-			if(month < 8 and month % 2 == 0 and month != 2){
-				cout << "\nThere are 30 days\n";
+			if(year % 4 != 0){
+				cout << "\nThere are 28 days\n";
 			}else{
-				if(month > 8 and month % 2 == 1){
-					cout << "\nThere are 30 days\n";	
+				if(year % 400 == 0){
+					cout << "\nThere are 29 days\n";
 				}else{
-					if(month == 2 and year % 4 != 0){
+					if(year % 100 == 0){
 						cout << "\nThere are 28 days\n";
 					}else{
-						if(year % 400 == 0){
-							cout << "\nThere are 29 days\n";
-						}else{
-							if(year % 100 == 0){
-								cout << "\nThere are 28 days\n";
-							}else{
-								cout << "\nThere are 29 days\n";
-							}
-						}
+						cout << "\nThere are 29 days\n";
 					}
 				}
 			}
