@@ -1,4 +1,13 @@
-//File name: /home/randy/135-rec/fall-2021-13500-lab-01-RandyLu0/month.cpp
+/*
+Name: Randy Lu
+Instructor: Mr. Zamansky
+Assignment: Lab 1D
+
+Prompts the user for a year and 
+month and displays the amount of
+days in the month
+*/
+
 #include <iostream>
 using std::cout;
 using std::cin;
