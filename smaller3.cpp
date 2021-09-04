@@ -1,4 +1,12 @@
-//File name: /home/randy/135-rec/fall-2021-13500-lab-01-RandyLu0/smaller3.cpp
+/*
+Name: Randy Lu
+Instructor: Mr. Zamansky
+Assignment: Lab 1B
+
+Prompts the user for three integers
+displays the smallest of the three.
+*/
+
 #include <iostream>
 using std::cout;
 using std::cin;
@@ -24,7 +32,7 @@ int main(){
         }
     }
 
-    cout << "\n\nThe smallest number is " << s << "\n";
+    cout << "\n\nThe smaller of the three is " << s << "\n";
     
     return 0;
 }
