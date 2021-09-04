@@ -1,4 +1,12 @@
-//File name: /home/randy/135-rec/fall-2021-13500-lab-01-RandyLu0/smaller.cpp
+/*
+Name: Randy Lu
+Instructor: Mr. Zamansky
+Assignment: Lab 1A
+
+Prompts the user for two integers
+displays the smaller of the two.
+*/
+
 #include <iostream>
 using std::cout;
 using std::cin;
@@ -18,7 +26,7 @@ int main(){
 		s = m;
     }
 
-	cout << "\n\nThe smallest number is " << s << "\n";
+	cout << "\n\nThe smaller of the two is " << s << "\n";
     
     return 0;
 }
