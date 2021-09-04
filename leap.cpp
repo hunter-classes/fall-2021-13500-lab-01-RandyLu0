@@ -1,3 +1,14 @@
+/*
+Name: Randy Lu
+Instructor: Mr. Zamansky
+Assignment: Lab 1C
+
+Prompts the user for a year
+displays leap year for
+leap years or common year for 
+common years
+*/
+
 #include <iostream>
 using std::cout;
 using std::cin;
